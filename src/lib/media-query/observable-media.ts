@@ -61,7 +61,7 @@ export abstract class ObservableMedia implements Subscribable<MediaChange> {
  *
  *    constructor(  media:ObservableMedia ) {
  *      let onChange = (change:MediaChange) => {
- *        this.status = change ? `'${change.mqAlias}' = (${change.mediaQuery})` : "";
+ *        this.status = change ? `'${change.mqAlias}' = (${change.mediaQuery})` : '';
  *      };
  *
  *      // Subscribe directly or access observable to use filter/map operators
